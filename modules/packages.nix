@@ -1,0 +1,47 @@
+{ pkgs, ... }:
+{
+  environment.systemPackages = with pkgs; [
+    bitwarden
+    brave
+    cargo
+    catppuccin-gtk
+    discord
+    dunst
+    eza
+    firefox
+    home-manager
+    imv
+    kitty
+    megatools
+    moc
+    mpv
+    neofetch
+    neovim
+    newsflash
+    nodejs_21
+    nwg-look
+    pamixer
+    pcmanfm
+    pavucontrol
+    polkit_gnome
+    qbittorrent
+    rar
+    ranger
+    rsync
+    rocmPackages.llvm.clang
+    sddm
+    swww
+    unrar
+    unzip
+    vscode
+    waybar
+    whatsapp-for-linux
+    wlogout
+    wofi
+    vim
+    zip
+    zsh
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    ];
+}
