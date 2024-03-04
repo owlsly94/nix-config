@@ -26,7 +26,9 @@
   };
 
   home.sessionVariables = {
-    # EDITOR = "emacs";
+    EDITOR = "nvim";
+    BROWSER = "firefox";
+    TERMINAL = "kitty";
   };
 
   programs.zsh = {
